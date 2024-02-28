@@ -3,8 +3,7 @@
 La façon la plus simple d'installer `Julia` est d'utiliser [juliaup](https://github.com/JuliaLang/juliaup).
 
 Sur Linux, installez `curl` sur votre système (`sudo apt install curl` sur Ubuntu). Puis dans un terminal :
-```{julia}
-#| eval: false
+```
 curl -fsSL https://install.julialang.org | sh
 ```
 et procédez à l'installation.
