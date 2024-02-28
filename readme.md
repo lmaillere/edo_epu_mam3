@@ -55,7 +55,7 @@ julia> ]  # package mode
 (@v1.10) pkg>
 ```
 
-Puis nous activons, et "instancions" l'environnement(recupère les packages requis, dans la version spécifiée dans les 2 fichiers `.toml`):
+Puis nous activons, et "instancions" l'environnement (recupère les packages requis, dans la version spécifiée dans les 2 fichiers `.toml`):
 ```julia
 (@v1.10) pkg> activate .    # active l'environnement
 (@v1.10) pkg> instantiate
