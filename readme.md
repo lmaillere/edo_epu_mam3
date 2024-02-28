@@ -62,5 +62,5 @@ Puis nous activons, et "instancions" l'environnement (recupère les packages req
 ```
 Un téléchargement et une pré-compilation des packages requis commence, cela peut prendre quelques minutes.
 
-Une fois terminé, vous pouvez utiliser le fichier notebook après avoir démarré Jupyterlab avec un noyau Julia.
+Une fois terminé, vous pouvez utiliser le fichier notebook présent dans votre clone local de ce dépot après avoir démarré Jupyterlab avec un noyau Julia.
 
