@@ -39,7 +39,7 @@ Julia vous propose alors d'installer jupyterlab via miniconda, ce que vous accep
 
 ## utiliser un environnement
 
-Pour télécharger les packages additionnels utilisés dans ce dépot, nous allons nous base sur l'environnement défini dans les fichiers `Projet.toml` et `Manifest.toml`.
+Pour télécharger les packages additionnels utilisés dans ce dépot, nous allons nous baser sur l'environnement défini dans les fichiers `Projet.toml` et `Manifest.toml`.
 
 Clonez le dépot:
 ```
@@ -48,16 +48,16 @@ git clone https://github.com/lmaillere/edo_epu_mam3.git
 (ou téléchargez l'archive compressée et décompressez la sur votre ordinateur).
 
 Ouvrez un terminal, positionnez vous dans le répertoire correspondant et démarrez Julia:
-```
+```julia
 julia
-[...]
+
 julia> ]  # package mode
 (@v1.10) pkg>
 ```
 
-Puis nous activons, et "instancions" (recupère les packages requis, dans la version spécifiée dans les 2 fichiers `.toml`) l'environnement:
+Puis nous activons, et "instancions" l'environnement(recupère les packages requis, dans la version spécifiée dans les 2 fichiers `.toml`):
 ```
-(@v1.10) pkg> activate .
+(@v1.10) pkg> activate .    # active l'environnement
 (@v1.10) pkg> instantiate
 ```
 Un téléchargement et une pré-compilation des packages requis commence, cela peut prendre quelques minutes.
