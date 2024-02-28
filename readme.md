@@ -39,7 +39,7 @@ Julia vous propose alors d'installer jupyterlab via miniconda, ce que vous accep
 
 ## utiliser un environnement
 
-Pour télécharger les packages additionnels utilisés dans ce dépot, nous allons nous baser sur l'environnement défini dans les fichiers `Projet.toml` et `Manifest.toml`.
+Pour télécharger les packages additionnels utilisés dans ce dépot, nous allons nous baser sur l'environnement défini dans les fichiers `Project.toml` et `Manifest.toml`.
 
 Clonez le dépot (e.g. dans un terminal):
 ```bash
