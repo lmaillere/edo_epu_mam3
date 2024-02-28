@@ -11,7 +11,7 @@ et procédez à l'installation.
 Fermez et réouvrez votre terminal (ou rechargez votre fichier de préférences comme vous l'indique l'installateur de juliaup) pour pouvoir exécuter `Julia`.
 
 Puis, si vous souhaitez utiliser `Julia` dans un notebook `jupyter`, installez le package `IJulia` depuis Julia comme suit (si le profil utilisateur linux est tout nouvellement, créé un redémarrage peut s'avérer nécessaire si vous rencontrez une erreur à l'exécution de `jupyterlab()` ci-dessous):
-```bash
+```
 julia # executer julia dans un terminal
    _       _ _(_)_     |  Documentation: https://docs.julialang.org
   (_)     | (_) (_)    |
