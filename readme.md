@@ -1,4 +1,12 @@
-# Installation de Julia
+# Shema de Euler, cours MAM3 EDO EPU Nice Sophia
+
+## Général
+
+Ce dépot propose une implémentation en Julia et Python du shéma d'Euler pour l'approximation des solutions (simulation, résolution numérique) de problèmes de Cauchy (EDO).
+
+L'installation de Julia est détaillée ci-dessous. L'installation de Python pourra être réalisée via par exemple [miniconda](https://docs.anaconda.com/miniconda/).
+
+## Installation de Julia
 
 La façon la plus simple d'installer `Julia` est d'utiliser [juliaup](https://github.com/JuliaLang/juliaup).
 
